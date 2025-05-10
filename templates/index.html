@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% block title %}TaskFlow{% endblock %}
+{% block content %}
+<section class="hero text-center">
+    <div class="container">
+      <h1 class="display-4 fw-bold">TaskFlow</h1>
+      <p class="lead">Your daily productivity partner. Organize tasks, stay focused, and get things done — effortlessly.</p>
+      <a href="/signup" class="btn btn-primary btn-lg me-3">Get Started</a>
+      <a href="/login" class="btn btn-outline-secondary btn-lg">Log In</a>
+    </div>
+  </section>
+<section class="features text-center">
+    <div class="container">
+      <h2 class="mb-4">Why You'll Love TaskFlow</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <h5>📝 Easy Task Management</h5>
+          <p>Create, edit, and complete tasks with just a few clicks.</p>
+        </div>
+        <div class="col-md-4">
+          <h5>📅 Stay Organized</h5>
+          <p>Set priorities, due dates, and never miss a deadline.</p>
+        </div>
+        <div class="col-md-4">
+          <h5>📈 Track Your Progress</h5>
+          <p>Visualize your productivity and hit your daily goals.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock %}
